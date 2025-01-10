@@ -53,3 +53,77 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+  #meal-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .meal-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .meal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .meal-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .meal-card p {
+    font-size: 0.9rem;
+  }
+  
+  #show-all-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #show-all-button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .meal-card {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #search-input {
+      width: 200px;
+    }
+    #search-button {
+      width: 100px;
+    }
+  }
