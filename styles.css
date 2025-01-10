@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
   
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #d9eed4;
+    background-color: #e1f8d6;
     color: #333;
   }
   
@@ -16,7 +17,7 @@
     padding: 20px;
     text-align: center;
   }
-
+  
   header h1 {
     font-size: 2.5rem;
   }
@@ -28,8 +29,7 @@
   main {
     padding: 20px;
   }
-
-
+  
   #search-section {
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
-
+  
   #search-button:hover {
     background-color: #45a049;
   }
@@ -127,3 +127,4 @@
       width: 100px;
     }
   }
+  
